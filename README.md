@@ -38,3 +38,5 @@ This is a defensive pattern scanner, not proof that a repository is safe. Rotate
 ## License
 
 MIT. See `LICENSE`.
+
+Run locally before pushing credentials.
