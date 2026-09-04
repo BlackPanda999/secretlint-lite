@@ -1,0 +1,5 @@
+SecretLint Lite — scanned 2 file(s)
+[HIGH] unsafe_fixture.txt:2 Possible github token detected (ghp…456)
+[MEDIUM] unsafe_fixture.txt:3 Possible password assignment detected (pas…345)
+
+Found 2 possible secret(s). Review before committing.

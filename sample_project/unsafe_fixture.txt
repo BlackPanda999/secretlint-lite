@@ -1,0 +1,3 @@
+# Test-only fake token; never use real credentials.
+GITHUB_TOKEN=ghp_123456789012345678901234567890123456
+password = 'not-a-real-password-12345'

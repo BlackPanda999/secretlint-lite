@@ -1,0 +1,28 @@
+{
+  "tool": "SecretLint Lite",
+  "path": "/app/conversations/6a9a5eca63701afa7072230d/secretlint-lite/sample_project",
+  "files_scanned": 2,
+  "findings": [
+    {
+      "id": "22b3c9ad77b4",
+      "type": "GITHUB_TOKEN",
+      "file": "unsafe_fixture.txt",
+      "line": 2,
+      "severity": "HIGH",
+      "match": "ghp\u2026456",
+      "message": "Possible github token detected"
+    },
+    {
+      "id": "16445b792b4b",
+      "type": "PASSWORD_ASSIGNMENT",
+      "file": "unsafe_fixture.txt",
+      "line": 3,
+      "severity": "MEDIUM",
+      "match": "pas\u2026345",
+      "message": "Possible password assignment detected"
+    }
+  ],
+  "total_findings": 2,
+  "high": 1,
+  "medium": 1
+}

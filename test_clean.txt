@@ -1,0 +1,2 @@
+SecretLint Lite — scanned 1 file(s)
+No likely secrets found.
